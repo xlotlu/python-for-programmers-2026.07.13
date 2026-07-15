@@ -71,7 +71,8 @@ NameError: variabila nu există
 TypeError: data type-uri nepotrivite
            argumente lipsă la funcție
 ValueError: când valoarea "nu se potrivește"
-IndexError: nu există item-ul cu indexul respectiv (la listă)
+IndexError: nu există item-ul cu indexul respectiv (la sequences)
+KeyError:   nu există cheia respectivă (în dicționar)
 
 
 # Utile în VSCode:
