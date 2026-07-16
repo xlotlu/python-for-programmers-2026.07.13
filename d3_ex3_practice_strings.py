@@ -116,6 +116,7 @@ _BAD_CHAR_RANGES = (
     range(124, 128)
 )
 
+BAD_CHARS = []
 for _range in _BAD_CHAR_RANGES:
     for n in _range:
         BAD_CHARS.append(chr(n))

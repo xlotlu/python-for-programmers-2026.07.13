@@ -13,6 +13,12 @@ este whitespace-sensitive (nu avem acolade!)
 
 vine cu "batteries included"
 
+Python este orientat către "Duck Typing":
+  - if it walks like a duck and quacks like a duck
+    it's good enough for me
+
+
+
 # Essential debugging tools
 
 print()
@@ -74,6 +80,22 @@ ValueError: când valoarea "nu se potrivește"
 IndexError: nu există item-ul cu indexul respectiv (la sequences)
 KeyError:   nu există cheia respectivă (în dicționar)
 
+# Useful things to install:
+
+To install things, în shell de sistem:
+
+$ pip install package_name
+
+sau, dacă pip nu e în PATH:
+
+$ python -m pip install requests
+
+Useful things:
+
+- ipython
+- rich
+- requests
+
 
 # Utile în VSCode:
 
@@ -88,4 +110,3 @@ There are 2 hard problems in computing:
 - naming things
 - cache invalidation
 - off-by-one errors
-

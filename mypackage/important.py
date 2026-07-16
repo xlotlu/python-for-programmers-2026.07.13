@@ -1,0 +1,3 @@
+class ModuleStuff:
+    pass
+    
