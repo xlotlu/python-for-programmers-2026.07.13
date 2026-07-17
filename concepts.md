@@ -24,6 +24,13 @@ Python este orientat către "Duck Typing":
 print()
 type()
 help()
+dir()
+pdb() / ipdb()
+
+# usage:
+import ipdb
+ipdb.set_trace() # se oprește în execuție
+
 
 # basic data types:
 
@@ -79,6 +86,7 @@ TypeError: data type-uri nepotrivite
 ValueError: când valoarea "nu se potrivește"
 IndexError: nu există item-ul cu indexul respectiv (la sequences)
 KeyError:   nu există cheia respectivă (în dicționar)
+AttributeError: obiectul nu are acel atribut
 
 # Useful things to install:
 
